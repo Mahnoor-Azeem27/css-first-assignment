@@ -1,0 +1,150 @@
+/* Page Styling */
+
+body {
+    background-color: hsl(210, 70%, 92%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 48px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Welcome Section */
+
+.intro {
+    width: 80%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 5px 12px lightgray;
+}
+
+.intro h2 {
+    color: darkblue;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Content Boxes */
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid gray;
+    box-shadow: 0px 5px 15px lightgray;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background-color: aliceblue;
+    border-color: darkblue;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+/* First Box (HSL) */
+
+.box1 {
+    background-color: #FFF8DC;
+    border-color: orange;
+}
+
+.box1 h2 {
+    color: darkorange;
+}
+
+.box1 p {
+    color: hsl(340, 80%, 40%);
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/* Second Box (RGB) */
+
+.box2 {
+    background-color: #EEF7FF;
+    border-color: dodgerblue;
+}
+
+.box2 h2 {
+    color: dodgerblue;
+}
+
+.box2 p {
+    color: rgb(0, 102, 204);
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.8;
+}
+
+/* Third Box (HEX) */
+
+.box3 {
+    background-color: #F1FFF1;
+    border-color: green;
+}
+
+.box3 h2 {
+    color: green;
+}
+
+.box3 p {
+    color: #008000;
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 1.8;
+}
+
+/* Footer */
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
