@@ -1,4 +1,5 @@
-/* TEST !@# */
+/* TEST 123 */
+
 /* Page Styling */
 
 body {
@@ -85,6 +86,12 @@ h1 {
 .box1 {
     background-color: #FFF8DC;
     border-color: orange;
+    border-radius: 50px;
+    border-style: groove;
+    border-width: 15px;
+    padding: 30px;
+    margin: 15px;
+    
 }
 
 .box1 h2 {
@@ -105,6 +112,11 @@ h1 {
 .box2 {
     background-color: #EEF7FF;
     border-color: dodgerblue;
+     border-radius: 50px;
+    border-style: groove;
+    border-width: 15px;
+    padding: 30px;
+    margin: 15px;
 }
 
 .box2 h2 {
@@ -125,6 +137,11 @@ h1 {
 .box3 {
     background-color: #F1FFF1;
     border-color: green;
+     border-radius: 50px;
+    border-style: groove;
+    border-width: 15px;
+    padding: 30px;
+    margin: 15px;
 }
 
 .box3 h2 {
